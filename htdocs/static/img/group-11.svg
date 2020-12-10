@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="116" viewBox="0 0 102 116">
+    <defs>
+        <filter id="a" width="182.1%" height="227%" x="-41%" y="-63.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+        </filter>
+        <linearGradient id="b" x1="69.312%" x2="40.697%" y1="0%" y2="110.691%">
+            <stop offset="0%" stop-color="#A2C6FE"/>
+            <stop offset="100%" stop-color="#6994FC"/>
+        </linearGradient>
+        <path id="c" d="M2.35 2.359h4.571v4.344h-4.57z"/>
+        <path id="e" d="M2.35 2.359h4.571v4.344h-4.57z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#142650" fill-rule="nonzero" d="M73.205 71l14.08 11.214-39.542 25.988a2 2 0 0 1-2.263-.046L29.962 97.04a2 2 0 0 1 .233-3.395L73.205 71z" filter="url(#a)" opacity=".457"/>
+        <path fill="#9D9E9D" d="M70.767 81.928l-19.02-10.933V48.256l19.02 10.934z"/>
+        <path fill="url(#b)" d="M50.9 39.399l8.3 4.666 18.155-10.187a.416.416 0 0 0 0-.725L58.323 22.448l-7.484 4.303a7.275 7.275 0 0 0 .062 12.648z" transform="translate(12 15)"/>
+        <path fill="#305FCF" d="M53.03 92.321l-19.66-10.97v-55.75l19.66 10.978z"/>
+        <path fill="url(#b)" d="M38.511.824L21.37 10.672l19.442 10.945 18.81-10.558L41.386.81a2.91 2.91 0 0 0-2.875.014z" transform="translate(12 15)"/>
+        <path fill="#305FCF" d="M15.298 92.244l18.5 10.677V68.804l-19.02-10.986v33.526c0 .371.198.714.52.9z"/>
+        <path fill="url(#b)" d="M2.778 42.893l19.66 11.356L41.03 43.281 21.362 32.217z" transform="translate(12 15)"/>
+        <g transform="translate(12 96.062)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+        </g>
+        <g transform="translate(12 96.062)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+        </g>
+        <path fill="#204AAF" d="M52.529 36.785v21.614L33.797 68.951v33.97L52.53 92.37l18.74-10.552L90 71.266v-22.75L71.269 59.068v22.75-55.594z"/>
+    </g>
+</svg>

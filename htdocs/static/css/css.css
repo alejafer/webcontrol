@@ -1,0 +1,78 @@
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.confirms {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  min-width: 280px;
+  max-width: 500px;
+  height: auto;
+  padding: 0 3% 0 3%;
+  
+  background: #E2E2E2;
+  border-radius: 10px;
+  border-top: 1px solid white;
+  animation: fade 0,5s ease 1 forwards;
+}
+.confirms h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1.5rem 1rem 0.5rem;
+ 
+
+}
+.confirms p {
+  text-align: center;
+  font-size: 1rem;
+ 
+}
+.confirms button {
+  background: transparent;
+  border: none;
+  color: #1678E5;
+  height: 3rem;
+  font-size: 1rem;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+.confirms button:nth-of-type(1) {
+ 
+  left: 0;
+  border-radius: 0 0 0 10px;
+}
+.confirms button:nth-of-type(2) {
+  border-top: 1px solid #B4B4B4;
+  right: 0;
+  border-radius: 0 0 10px 0;
+}
+.confirms button:focus,
+.confirms button:hover {
+  font-weight: bold;
+  background: #EFEFEF;
+}
+.confirms button:active {
+  background: #D6D6D6;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
